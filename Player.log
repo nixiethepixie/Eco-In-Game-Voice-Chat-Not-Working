@@ -1,0 +1,378 @@
+Initialize engine version: 2019.4.15f1 (fbf367ac14e9)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/Eco/Eco_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14501.18003
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.405000 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects. 
+(Filename:  Line: 589)
+
+WwiseUnity: Wwise(R) SDK Version 2019.2.5 Build 7349.
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+AkWwiseInitializationSettings:InitializeSoundEngine()
+AkInitializer:OnEnable()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WwiseUnity: Setting Plugin DLL path to: C:/Program Files (x86)/Steam/steamapps/common/Eco/Eco_Data\Plugins\x86_64
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AkCommonPlatformSettings:get_AkInitializationSettings()
+AkWwiseInitializationSettings:InitializeSoundEngine()
+AkInitializer:OnEnable()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WwiseUnity: Sound engine initialized successfully.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AkWwiseInitializationSettings:InitializeSoundEngine()
+AkInitializer:OnEnable()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+The referenced script on this Behaviour (Game Object 'Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Table') is missing! 
+(Filename:  Line: 334)
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+SteamManager:Awake()
+
+[ line 589] 
+(Filename:  Line: 589)
+
+Ambiguous UI component types ignored: SeriesPopupUI,BaseUI,ViewEditorUI
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UI.UIManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:31.070] Nat introduction received with token = ffb13520-c41d-4a71-8e2e-0db1b888431b
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Eco.Shared.Utils.Log:Debug(String, Object[])
+Eco.Shared.Networking.NetworkClient:HandleCompleteUnconnectedDataMessage(UdpDataMessage&)
+Eco.Shared.Networking.NetworkClient:HandleUnconnectedDataMessage(UdpDataMessage&)
+Eco.Shared.Networking.UdpDataMessageHandler:Invoke(UdpDataMessage&)
+Eco.Networking.ENet.ENetUdpPeer:OnRawDataReceived(IntPtr, IntPtr, UInt32, Boolean&)
+ENet.RawDataReceivedHandler:Invoke(IntPtr, IntPtr, UInt32, Boolean&)
+ENet.Host:HandleIntercept(IntPtr, IntPtr)
+ENet.Host:Service(Int32, Event&)
+Eco.Networking.ENet.ENetUdpPeer:Service(Int32)
+<>c__DisplayClass59_0:<Initialize>b__0()
+System.Threading.ThreadStart:Invoke()
+System.Action`1:Invoke(T)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadStart:Invoke()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:31.161] Nat punch received from 134.255.222.119:3000 with token = ffb13520-c41d-4a71-8e2e-0db1b888431b
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Eco.Shared.Utils.Log:Debug(String, Object[])
+Eco.Shared.Networking.NetworkClient:HandleCompleteUnconnectedDataMessage(UdpDataMessage&)
+Eco.Shared.Networking.NetworkClient:HandleUnconnectedDataMessage(UdpDataMessage&)
+Eco.Shared.Networking.UdpDataMessageHandler:Invoke(UdpDataMessage&)
+Eco.Networking.ENet.ENetUdpPeer:OnRawDataReceived(IntPtr, IntPtr, UInt32, Boolean&)
+ENet.RawDataReceivedHandler:Invoke(IntPtr, IntPtr, UInt32, Boolean&)
+ENet.Host:HandleIntercept(IntPtr, IntPtr)
+ENet.Host:Service(Int32, Event&)
+Eco.Networking.ENet.ENetUdpPeer:Service(Int32)
+<>c__DisplayClass59_0:<Initialize>b__0()
+System.Threading.ThreadStart:Invoke()
+System.Action`1:Invoke(T)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadStart:Invoke()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:31.191] Connecting to 134.255.222.119:3000...
+
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Eco.Shared.Utils.Log:WriteLine(LocString)
+Eco.Shared.Networking.NetworkClient:ConnectInternal(IPEndPoint)
+Eco.Shared.Networking.NetworkClient:ConnectRoundRobin()
+Eco.Shared.Networking.NetworkClient:HandleNatIntroductionSuccess(IPEndPoint, String)
+Eco.Shared.Networking.NetworkClient:HandleCompleteUnconnectedDataMessage(UdpDataMessage&)
+Eco.Shared.Networking.NetworkClient:HandleUnconnectedDataMessage(UdpDataMessage&)
+Eco.Shared.Networking.UdpDataMessageHandler:Invoke(UdpDataMessage&)
+Eco.Networking.ENet.ENetUdpPeer:OnRawDataReceived(IntPtr, IntPtr, UInt32, Boolean&)
+ENet.RawDataReceivedHandler:Invoke(IntPtr, IntPtr, UInt32, Boolean&)
+ENet.Host:HandleIntercept(IntPtr, IntPtr)
+ENet.Host:Service(Int32, Event&)
+Eco.Networking.ENet.ENetUdpPeer:Service(Int32)
+<>c__DisplayClass59_0:<Initialize>b__0()
+System.Threading.ThreadStart:Invoke()
+System.Action`1:Invoke(T)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadStart:Invoke()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+The referenced script on this Behaviour (Game Object 'LayerViewer') is missing! 
+(Filename:  Line: 334)
+
+Unable to open archive file: C:/Program Files (x86)/Steam/steamapps/common/Eco/Eco_Data/StreamingAssets/desc.unity3d 
+(Filename:  Line: 584)
+
+Failed to read data for the AssetBundle 'StreamingAssets\desc.unity3d'. 
+(Filename:  Line: 449)
+
+[02:21:38.947] Missing following icons:
+AttachmentComponent
+BlockForm
+ChargingComponent
+DeedManagementComponent
+ElevatorCallPostComponent
+FakePlantComponent
+FormType
+FuelConsumptionComponent
+FuelSupplyComponent
+LinkComponent
+LiquidProducerComponent
+LogicGateObject
+ModularStockpileComponent
+ModularVehicleComponent
+MountComponent
+OnOffComponent
+PowerConsumptionComponent
+PowerGeneratorComponent
+PowerGridComponent
+PowerGridNetworkComponent
+QueryAction
+RoomRequirementsComponent
+StandaloneAuthComponent
+TollComponent
+VehicleHoeComponent
+VehicleToolComponent
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+<CreateMissingItems>d__52:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<BuildItems>d__53:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:39.117] Missing following objects: AirPollutionGeneratorObject
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+<BuildFromModKit>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<ReceiveModData>d__47:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:41.859] <BeginGetConnectorHandle>b__0: vx_req_connector_create_t failed: VivoxUnity.VivoxApiException: HTTP Timeout (10028)
+  at VivoxUnity.VxClient.EndIssueRequest (System.IAsyncResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.Client+<>c__DisplayClass12_0.<BeginGetConnectorHandle>b__0 (System.IAsyncResult ar) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient+HandleEventMessage.Invoke (vx_evt_base_t eventMessage) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.AsyncResult`1[T].SetComplete (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient.InstanceOnMainLoopRun (System.Boolean& didWork) [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunOnce () [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunUntil (LoopDone done) [0x00000] in <00000000000000000000000000000000>:0 
+  at VoiceManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+VivoxUnity.VivoxDebug:DebugMessage(Object, vx_log_level)
+VivoxUnity.<>c__DisplayClass12_0:<BeginGetConnectorHandle>b__0(IAsyncResult)
+VivoxUnity.HandleEventMessage:Invoke(vx_evt_base_t)
+VivoxUnity.AsyncResult`1:SetComplete(T)
+VivoxUnity.VxClient:InstanceOnMainLoopRun(Boolean&)
+MessagePump:RunOnce()
+MessagePump:RunUntil(LoopDone)
+VoiceManager:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:41.861] <BeginLogin>b__0: BeginGetConnectorHandle failed: VivoxUnity.VivoxApiException: HTTP Timeout (10028)
+  at VivoxUnity.VxClient.EndIssueRequest (System.IAsyncResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.Client+<>c__DisplayClass12_0.<BeginGetConnectorHandle>b__0 (System.IAsyncResult ar) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient+HandleEventMessage.Invoke (vx_evt_base_t eventMessage) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.AsyncResult`1[T].SetComplete (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient.InstanceOnMainLoopRun (System.Boolean& didWork) [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunOnce () [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunUntil (LoopDone done) [0x00000] in <00000000000000000000000000000000>:0 
+  at VoiceManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+VivoxUnity.VivoxDebug:DebugMessage(Object, vx_log_level)
+VivoxUnity.Private.<>c__DisplayClass89_0:<BeginLogin>b__0(IAsyncResult)
+VivoxUnity.HandleEventMessage:Invoke(vx_evt_base_t)
+VivoxUnity.AsyncResult`1:SetComplete(Exception)
+VivoxUnity.<>c__DisplayClass12_0:<BeginGetConnectorHandle>b__0(IAsyncResult)
+VivoxUnity.HandleEventMessage:Invoke(vx_evt_base_t)
+VivoxUnity.AsyncResult`1:SetComplete(T)
+VivoxUnity.VxClient:InstanceOnMainLoopRun(Boolean&)
+MessagePump:RunOnce()
+MessagePump:RunUntil(LoopDone)
+VoiceManager:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[02:21:41.863] VivoxUnity.VivoxApiException: HTTP Timeout (10028)
+  at VivoxUnity.VxClient.EndIssueRequest (System.IAsyncResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.Client+<>c__DisplayClass12_0.<BeginGetConnectorHandle>b__0 (System.IAsyncResult ar) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient+HandleEventMessage.Invoke (vx_evt_base_t eventMessage) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.AsyncResult`1[T].SetComplete (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient.InstanceOnMainLoopRun (System.Boolean& didWork) [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunOnce () [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunUntil (LoopDone done) [0x00000] in <00000000000000000000000000000000>:0 
+  at VoiceManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Eco.Shared.Utils.Log:WriteException(Exception)
+VoiceManager:<LoginUser>b__45_0(IAsyncResult)
+VivoxUnity.HandleEventMessage:Invoke(vx_evt_base_t)
+VivoxUnity.AsyncNoResult:SetComplete()
+VivoxUnity.Private.<>c__DisplayClass89_0:<BeginLogin>b__0(IAsyncResult)
+VivoxUnity.HandleEventMessage:Invoke(vx_evt_base_t)
+VivoxUnity.AsyncResult`1:SetComplete(Exception)
+VivoxUnity.<>c__DisplayClass12_0:<BeginGetConnectorHandle>b__0(IAsyncResult)
+VivoxUnity.HandleEventMessage:Invoke(vx_evt_base_t)
+VivoxUnity.AsyncResult`1:SetComplete(T)
+VivoxUnity.VxClient:InstanceOnMainLoopRun(Boolean&)
+MessagePump:RunOnce()
+MessagePump:RunUntil(LoopDone)
+VoiceManager:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+VivoxApiException: HTTP Timeout (10028)
+  at VivoxUnity.VxClient.EndIssueRequest (System.IAsyncResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.Client+<>c__DisplayClass12_0.<BeginGetConnectorHandle>b__0 (System.IAsyncResult ar) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient+HandleEventMessage.Invoke (vx_evt_base_t eventMessage) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.AsyncResult`1[T].SetComplete (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at VivoxUnity.VxClient.InstanceOnMainLoopRun (System.Boolean& didWork) [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunOnce () [0x00000] in <00000000000000000000000000000000>:0 
+  at MessagePump.RunUntil (LoopDone done) [0x00000] in <00000000000000000000000000000000>:0 
+  at VoiceManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+[02:21:42.424] Bad rule ID: could not find matching category type for: Buidling on: FlatSteel Walls case: 0 offset: Offset_201
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CustomBuilder:Initialize()
+MapConfig:CreateBlockMapping(String[], UInt16[], IEnumerable`1)
+VoxelEngine.Core.NetMapConfig:CreateBlockMapping(BSONObject)
+RenderedChunkGrid:ReceiveInitialState(BSONObject)
+Eco.Shared.Networking.NetObjectManager:HandleNewObject(BSONObject)
+ClientPacketHandler:ReceiveWhile(NetworkClient, TimeLimit)
+Unity.Entities.F_E:Invoke(Entity)
+FramePlanner.PlannerGroup:OnUpdate()
+FramePlanner.FramePlannerSystem:OnUpdate()
+Unity.Entities.ComponentSystem:Update()
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.ComponentSystem:Update()
+Unity.Entities.WithCodeAction:Invoke()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CollisionMeshData couldn't be created because the mesh has been marked as non-accessible. Mesh asset path "" Mesh name "Turbo Slicer mesh"
+UnityEngine.Object:Instantiate(Object)
+NobleMuffins.TurboSlicer.TurboSlicer:ConsumeJobYield(JobSpecification, JobYield)
+NobleMuffins.TurboSlicer.TurboSlicer:Update()
+
+[ line 57] 
+(Filename:  Line: 57)
+
+CollisionMeshData couldn't be created because the mesh has been marked as non-accessible. Mesh asset path "" Mesh name "Turbo Slicer mesh"
+UnityEngine.Object:Instantiate(Object)
+NobleMuffins.TurboSlicer.TurboSlicer:ConsumeJobYield(JobSpecification, JobYield)
+NobleMuffins.TurboSlicer.TurboSlicer:Update()
+
+[ line 57] 
+(Filename:  Line: 57)
+
+CollisionMeshData couldn't be created because the mesh has been marked as non-accessible. Mesh asset path "" Mesh name "Turbo Slicer mesh"
+UnityEngine.Object:Instantiate(Object)
+NobleMuffins.TurboSlicer.TurboSlicer:ConsumeJobYield(JobSpecification, JobYield)
+NobleMuffins.TurboSlicer.TurboSlicer:Update()
+
+[ line 57] 
+(Filename:  Line: 57)
+
+CollisionMeshData couldn't be created because the mesh has been marked as non-accessible. Mesh asset path "" Mesh name "Turbo Slicer mesh"
+UnityEngine.Object:Instantiate(Object)
+NobleMuffins.TurboSlicer.TurboSlicer:ConsumeJobYield(JobSpecification, JobYield)
+NobleMuffins.TurboSlicer.TurboSlicer:Update()
+
+[ line 57] 
+(Filename:  Line: 57)
+
+Coroutine couldn't be started because the the game object 'Birch' is inactive!
+TreeNetComponent:FellTree(Guid, Single, Boolean, Int32)
+TreeNetComponent:FellTree(Guid, Single, Int32)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+System.Func`3:Invoke(T1, T2)
+Eco.Shared.Networking.RPCManager:TryInvoke(INetClient, Object, String, BSONArray, Object&)
+Eco.Shared.Networking.RPCManager:InvokeOn(INetClient, BSONObject, Object, String)
+Eco.Shared.Networking.RPCManager:HandleReceiveRPC(INetClient, BSONObject)
+NetworkManager:Eco.Shared.Networking.INetworkEventHandler.ReceiveEvent(INetClient, NetworkEvent, BSONObject)
+Eco.Shared.Networking.NetworkClient:TryReceivePacket()
+ClientPacketHandler:ReceiveWhile(NetworkClient, TimeLimit)
+Unity.Entities.F_E:Invoke(Entity)
+FramePlanner.PlannerGroup:OnUpdate()
+FramePlanner.FramePlannerSystem:OnUpdate()
+Unity.Entities.ComponentSystem:Update()
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.ComponentSystem:Update()
+Unity.Entities.WithCodeAction:Invoke()
+
+[ line 731] 
+(Filename:  Line: 731)
+
+Setting up 12 worker threads for Enlighten.
+  Thread -> id: 2220 -> priority: 1 
+  Thread -> id: 190c -> priority: 1 
+  Thread -> id: 35c8 -> priority: 1 
+  Thread -> id: 36c8 -> priority: 1 
+  Thread -> id: 340 -> priority: 1 
+  Thread -> id: 3b64 -> priority: 1 
+  Thread -> id: 36c0 -> priority: 1 
+  Thread -> id: 2364 -> priority: 1 
+  Thread -> id: 898 -> priority: 1 
+  Thread -> id: 3570 -> priority: 1 
+  Thread -> id: 1e00 -> priority: 1 
+  Thread -> id: 1e20 -> priority: 1 
+[02:22:14.947] <color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 1 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 1 missing target or field errors
+EcoEngine.Logging.LogManager:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.DOTweenComponent:OnDestroy()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
